@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="strtbtn">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="ques"></div>
+            <div id="quesbuttn"></div>
+            <div id="seloptions">
+                <div class="options" id="A" onclick="chosAns('A')"></div>
+                <div class="options" id="B" onclick="chosAns('B')"></div>
+                <div class="options" id="C" onclick="chosAns('C')"></div>
+            </div>
+            <div id="clock">
+                <div id="countdown"></div>
+                <div id="currtime"></div>
+                <div id="time"></div>
+            </div>
+            <div id="qprog"></div>
+        </div>
+        <div id="scoreBox" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
