@@ -141,7 +141,7 @@ function ansIsWrong(){
     document.getElementById(currQues).style.backgroundColor = "#f01";
 }
 
-// score render
+
 function shwScore(){
     scoreBox.style.display = "block";
     
